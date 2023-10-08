@@ -11,3 +11,9 @@ const CSSProvider = defineAsyncComponent(
   async () => (await import("@master/css.vue")).CSSProvider,
 );
 </script>
+
+<style>
+body {
+  font-family: "Noto Sans TC", "Roboto", sans-serif;
+}
+</style>
