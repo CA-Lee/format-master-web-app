@@ -23,5 +23,4 @@ export default defineNuxtConfig({
     },
   },
   css: ["@master/normal.css"],
-  devtools: { enabled: true },
 });
